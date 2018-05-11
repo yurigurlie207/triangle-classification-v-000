@@ -9,8 +9,10 @@ class Triangle
   end
 
   def kind
-    if
+    if @side1 == @side2 == @side 3
+      :equilateral
     end
+  end
 
     class TriangleError < StandardError
 
